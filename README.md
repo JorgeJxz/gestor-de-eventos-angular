@@ -1,6 +1,6 @@
 # gestor-de-eventos-angular
 
-Un secillo programa que realice mientras estuve estudiando "desarrollo de aplicaciones en entorno cliente" en el ciclo superior de desarrollo de aplicaciones web.
+Esto lo programé mientras estuve estudiando "desarrollo de aplicaciones en entorno cliente" en el ciclo superior de desarrollo de aplicaciones web.
 
 Este nos permite crear tarjetas con la información de diversos tipos de eventos y guardarlos en una base da datos relacional. A través de un formulario subimos los datos incluyendo la imagen de portada, tambien es posible mediante un filtro buscar el evento por nombre, fecha o precio.
 
