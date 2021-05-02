@@ -1,4 +1,4 @@
-#gestor-de-eventos-angular
+# gestor-de-eventos-angular
 
 Un secillo programa que realice mientras estuve estudiando "desarrollo de aplicaciones en entorno cliente" en el ciclo superior de desarrollo de aplicaciones web.
 
