@@ -1,0 +1,12 @@
+<img [src]="evento.image" />
+<div class="card-body">
+  <h4>{{evento.title}}  </h4>
+  <p class="card-text">{{evento.description}}</p>
+  <div class="text-right">
+    <button class="btn btn-info ml-3" (click)="goBack()">Return</button>
+  </div>
+</div>
+<div class="card-footer text-muted">
+  {{evento.date}}
+  <span class="float-right">{{evento.price}}</span>
+</div>

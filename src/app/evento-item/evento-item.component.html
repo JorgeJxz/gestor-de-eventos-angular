@@ -1,0 +1,12 @@
+<img [src]="evento.image" [routerLink]="['/eventos', evento.id]" [routerLinkActive]="['active']" />
+<div class="card-body">
+  <h4><a [routerLink]="['/eventos', evento.id]" [routerLinkActive]="['active']">{{evento.title | titlecase}}</a></h4>
+  <p class="card-text">{{evento.description}}</p>
+  <div class="text-right">
+    <button class="btn btn-danger ml-3" (click)="deleteEvento()">Delete</button>
+  </div>
+</div>
+<div class="card-footer text-muted">
+  {{evento.date | date:'dd/MM/y'}}
+  <span class="float-right">{{evento.price | currency:'EUR':'symbol'}}</span>
+</div>

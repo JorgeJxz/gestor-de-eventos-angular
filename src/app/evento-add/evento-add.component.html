@@ -1,0 +1,30 @@
+<form class="mt-4" (ngSubmit)="addEvento()">
+  <div class="form-group">
+    <label for="name">Nombre</label>
+    <input type="text" class="form-control" name="title" [(ngModel)]="newEvento.title" placeholder="Elige un nombre">
+  </div>
+
+  <div class="form-group">
+    <label for="imagen">Imagen</label>
+    <input #fileImage type="file" class="form-control" name="imagen"  accept="image/*" (change)="changeImage(fileImage)">
+  </div>
+
+  <div class="form-group">
+    <label for="fecha">Fecha</label>
+    <input type="date" class="form-control" name="fecha" [(ngModel)]="newEvento.date" placeholder="Elige una fecha">
+  </div>
+
+  <div class="form-group">
+    <label for="descripcion">Descripcion</label>
+    <input type="text" class="form-control" name="descripcion" [(ngModel)]="newEvento.description" placeholder="Ingresa descripcion">
+  </div>
+
+  <div class="form-group">
+    <label for="precio">Precio</label>
+    <input type="number" class="form-control" name="precio" [(ngModel)]="newEvento.price" placeholder="Ingrese precio">
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
