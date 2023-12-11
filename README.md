@@ -12,7 +12,7 @@ Para generar la carpeta node_modules escribe  el comando "npm install AngularEve
 
 * [Angular](https://angular.io/) - El framework web usado
 
-Este proyceto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
 ## Autores ✒️
 
